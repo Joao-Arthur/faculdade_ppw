@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="Content-Language" content="pt-br" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+            name="author"
+            content="João Arthur Lothamer Fernandes, Iasmin Corrêa"
+        />
+        <meta
+            name="description"
+            content="projeto final de programação para web"
+        />
+        <meta name="keywords" content="HTML, CSS, JS, API, Projeto, PPW" />
+        <title>Mini-Fórum</title>
+        <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
+        <link rel="stylesheet" type="text/css" href="css/pagina.css" />
+        <link rel="stylesheet" type="text/css" href="css/topicos.css" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <header>
+            <img src="img/forum.png" alt="imagem de conversa" />
+            <div class="headerTitle">
+                <h1 id="titulo">Mini-Fórum</h1>
+                <p>Compartilhe suas ideias!</p>
+            </div>
+        </header>
+        <main>
+            <div id="adicionarTopico">
+                <form id="formulario">
+                    <input
+                        type="text"
+                        id="topico"
+                        placeholder="Fale sobre algo..."
+                        required
+                    />
+                    <button>Adicionar</button>
+                </form>
+            </div>
+            <div id="publicacoes"></div>
+        </main>
+        <footer>
+            <p>
+                Desenvolvido por
+                <a href="https://github.com/Joao-Arthur">João Arthur</a> e
+                <a href="https://www.linkedin.com/in/iasmin-corr%C3%AAa-rebelo/"
+                    >Iasmin Corrêa</a
+                >
+            </p>
+        </footer>
+        <script src="js/DOMFunctions.js"></script>
+        <script src="js/APIRamon.js"></script>
+        <script src="js/Comentario.js"></script>
+        <script src="js/Topico.js"></script>
+        <script src="js/projetoFinal.js"></script>
+    </body>
+</html>
